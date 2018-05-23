@@ -47,6 +47,7 @@ cd ceed-benchmarks/tests/mfem_bps/
 Each 7451 has 24 cores and supports two hardware threads per core (96 threads in
 total).  The node has 256GB of XYZ memory @ ABC GHz.
 
+http://www.cpu-world.com/CPUs/Zen/AMD-EPYC%207451.html
 
 The AOCC 1.2 C++ and Fortran (not required for mfem) was installed using the
 tarballs and directions here:
