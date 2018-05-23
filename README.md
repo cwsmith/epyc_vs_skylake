@@ -45,7 +45,7 @@ cd ceed-benchmarks/tests/mfem_bps/
 
 `bp1` was executed on a dual socket AMD EPYC 7451 node using GCC 7.1.0 and AOCC 1.2 with MVAPICH2.
 Each 7451 has 24 cores and supports two hardware threads per core (96 threads in
-total).  The node has 256GB of XYZ memory @ ABC GHz.
+total).  The node has 256GB (16GB sticks x16) at 2.67Ghz.
 
 http://www.cpu-world.com/CPUs/Zen/AMD-EPYC%207451.html
 
