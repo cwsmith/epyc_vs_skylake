@@ -62,3 +62,23 @@ cd ceed-benchmarks/tests/mfem_bps/
 ../../go.sh -c ipa -m aocc -r bp1_v1.sh -n "4 8 16 32" -p "4 8 16 32" &> ipa_bp1_aocc12.txt
 ../../go.sh -c ipa -m gcc -r bp1_v1.sh -n "4 8 16 32" -p "4 8 16 32" &> ipa_bp1_gcc7.txt
 ```
+
+## Post Processing
+
+Generate plots for each system-compiler pair:
+
+```
+cd epyc_vs_skylake/mfem/bp1/<system-compiler>/
+ln -s ceed-benchmarks/tests/mfem_bps/*.py .
+python postprocess-plot-1.py *.txt
+python postprocess-plot-2.py *.txt
+python postprocess-plot-3.py *.txt
+```
+
+Generate comparison plots between system-compiler pairs A and B:
+
+```
+cd epyc_vs_skylake/mfem/bp1/<system-compiler-A_vs_system-compiler-B>/
+ln -s ceed-benchmarks/tests/mfem_bps/*.py .
+python postprocess-plot-4.py ../<system-compiler-A>/*.txt ../<system-compiler-B>/*.txt
+```
