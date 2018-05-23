@@ -64,6 +64,29 @@ cd ceed-benchmarks/tests/mfem_bps/
 ../../go.sh -c ipa -m gcc -r bp1_v1.sh -n "4 8 16 32" -p "4 8 16 32" &> ipa_bp1_gcc7.txt
 ```
 
+### Lyra
+
+`bp1` was executed on a single socket AMD EPYC 7451 node using AOCC 1.2 with
+MPICH 3.1.2.  Each 7451 has 24 cores and supports two hardware threads per core (48 threads in
+total).  The node has 128GB of RAM running at 2.67Ghz.  Note, the motherboard
+design places two DIMMs per channel ('dual rank') which results in the memory
+only running at 2.4Ghz; a 10% reduction.
+
+The AOCC 1.2 C++ and Fortran (not required for mfem) was installed using the
+tarballs and directions here:
+
+https://developer.amd.com/amd-aocc/
+
+Run the tests:
+
+```
+cp epyc_vs_skylake/mfem/machine-configs/lyra.sh ceed-benchmarks/machine-configs
+salloc -N 1 -t60
+cd ceed-benchmarks/tests/mfem_bps/
+procs="3 6 12 24 48"
+base_nxyz="1 1 3" ../../go.sh -c lyra -m aocc -r bp1_v1.sh -n "$procs" -p "$procs" &> lyra_bp1_aocc12.txt
+```
+
 ## Post Processing
 
 Generate plots for each system-compiler pair:
