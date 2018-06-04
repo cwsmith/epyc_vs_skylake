@@ -51,6 +51,18 @@ function setup_gcc()
    NEK5K_EXTRA_PPLIST=""
 }
 
+function setup_gccOpt()
+{
+   module load gcc/7.1.0
+   module load mvapich2/2.2
+   MPICC=mpicc
+   MPICXX=mpicxx
+   MPIF77=mpif77
+
+   CFLAGS="-O3 -march=znver1 -flto"
+   FFLAGS="$CFLAGS"
+}
+
 function setup_aocc()
 {
    module load gcc/7.1.0
@@ -67,6 +79,22 @@ function setup_aocc()
    FFLAGS="$CFLAGS"
 }
 
+function setup_aoccOpt()
+{
+   module load gcc/7.1.0
+   module load mvapich2/2.2
+   source /g/g19/smith516/software/setenv_AOCC.sh
+   MPICC=mpicc
+   MPICXX=mpicxx
+   MPIF77=mpif77
+   MPICH_CC=clang
+   MPICH_CCC=clang++
+   MPICH_F90=flang
+
+   CFLAGS="-O3 -march=znver1 -flto -fuse-ld=lld"
+   FFLAGS="$CFLAGS"
+}
+
 function set_mpi_options()
 {
    # run in interactive mode
@@ -78,7 +106,7 @@ function set_mpi_options()
 
 MFEM_EXTRA_CONFIG=""
 
-valid_compilers="intel gcc gcc_b aocc"
+valid_compilers="intel gcc gccOpt aocc aoccOpt"
 num_proc_build=${num_proc_build:-48}
 num_proc_run=${num_proc_run:-48}
 num_proc_node=${num_proc_node:-48}
