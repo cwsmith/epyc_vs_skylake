@@ -71,6 +71,18 @@ function setup_aocc()
    FFLAGS="$CFLAGS"
 }
 
+function setup_aoccOpt()
+{
+   source /ccs/home/cwsmith/software/aocc/setenv_AOCC.sh
+   CC=clang
+   CXX=clang++
+   FC=flang
+
+   setup_mpich
+
+   CFLAGS="-O3 -march=znver1 -flto -fuse-ld=lld"
+   FFLAGS="$CFLAGS"
+}
 
 function set_mpi_options()
 {
@@ -83,7 +95,7 @@ function set_mpi_options()
 search_file_list LAPACK_LIB \
    "/usr/lib64/atlas/libsatlas.so" "/usr/lib64/libopenblas.so"
 
-valid_compilers="gcc aocc"
+valid_compilers="gcc aocc aoccOpt"
 # Number of processors to use for building packages and tests:
 num_proc_build=8
 # Default number of processors and processors per node for running tests:
