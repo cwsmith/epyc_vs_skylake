@@ -71,9 +71,9 @@ function setup_aocc()
    MPICC=mpicc
    MPICXX=mpicxx
    MPIF77=mpif77
-   MPICH_CC=clang
-   MPICH_CCC=clang++
-   MPICH_F90=flang
+   export MPICH_CC=clang
+   export MPICH_CCC=clang++
+   export MPICH_F90=flang
 
    CFLAGS="-O3"
    FFLAGS="$CFLAGS"
@@ -87,9 +87,9 @@ function setup_aoccOpt()
    MPICC=mpicc
    MPICXX=mpicxx
    MPIF77=mpif77
-   MPICH_CC=clang
-   MPICH_CCC=clang++
-   MPICH_F90=flang
+   export MPICH_CC=clang
+   export MPICH_CCC=clang++
+   export MPICH_F90=flang
 
    CFLAGS="-O3 -march=znver1 -flto -fuse-ld=lld"
    FFLAGS="$CFLAGS"
