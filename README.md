@@ -2,7 +2,7 @@
 
 Clone the benchmarking repo
 
-git clone git@github.com:CEED/benchmarks.git ceed-benchmarks
+`git clone git@github.com:CEED/benchmarks.git ceed-benchmarks`
 
 The scripts provided by this repo with download and build mfem, and then run the
 `bp1` benchmark on a range of processes with varying basis function order
