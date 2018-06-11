@@ -141,6 +141,21 @@ Allocate an EPYC node and run the `runStream` script.
 ./runStream.sh <download=0|1> <compiler=gcc|aocc>
 ```
 
+### Lyra
+
+Peak OpenMP STREAM Triad performance on the one socket EPYC nodes on Lyra is 101 GB/s
+using GCC 5.4.0.  AOCC 1.2 test results peak at 85 GB/s and oscillate a lot
+versus thread count.
+
+#### execution
+
+Allocate an EPYC node and run the `runStream` script.
+
+```
+./runStream.sh <download=0|1> <compiler=gcc|aocc>
+```
+
+
 
 ### Post Processing
 
