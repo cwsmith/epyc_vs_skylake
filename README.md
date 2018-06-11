@@ -112,7 +112,7 @@ python postprocess-plot-4.py ../<system-compiler-A>/*.txt ../<system-compiler-B>
 
 ### Stampede2
 
-Peak STREAM Triad performance on the two socket Skylake nodes on Stampede2 is
+Peak OpenMP STREAM Triad performance on the two socket Skylake nodes on Stampede2 is
 194 GB/s:
 
 https://repositories.lib.utexas.edu/bitstream/handle/2152/61472/SKX_Benchmarking.pdf?sequence=2&isAllowed=y
