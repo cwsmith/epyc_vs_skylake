@@ -1,3 +1,5 @@
+
+libgomp: Invalid value for environment variable OMP_DISPLAY_ENV
 -------------------------------------------------------------
 STREAM version $Revision: 5.10 $
 -------------------------------------------------------------
@@ -14,8 +16,8 @@ Number of Threads requested = 1
 Number of Threads counted = 1
 -------------------------------------------------------------
 Your clock granularity/precision appears to be 1 microseconds.
-Each test below will take on the order of 7826 microseconds.
-   (= 7826 clock ticks)
+Each test below will take on the order of 7202 microseconds.
+   (= 7202 clock ticks)
 Increase the size of the arrays if this shows that
 you are not getting at least 20 clock ticks per test.
 -------------------------------------------------------------
@@ -24,13 +26,15 @@ For best results, please be sure you know the
 precision of your system timer.
 -------------------------------------------------------------
 Function    Best Rate MB/s  Avg time     Min time     Max time
-Copy:           26688.8     0.006016     0.005995     0.006032
-Scale:          15800.7     0.010158     0.010126     0.010188
-Add:            18899.3     0.012734     0.012699     0.012789
-Triad:          17953.1     0.013389     0.013368     0.013414
+Copy:           27132.2     0.005916     0.005897     0.005927
+Scale:          16150.2     0.009932     0.009907     0.009960
+Add:            18574.3     0.012943     0.012921     0.012968
+Triad:          18205.4     0.013196     0.013183     0.013225
 -------------------------------------------------------------
 Solution Validates: avg error less than 1.000000e-13 on all three arrays
 -------------------------------------------------------------
+
+libgomp: Invalid value for environment variable OMP_DISPLAY_ENV
 -------------------------------------------------------------
 STREAM version $Revision: 5.10 $
 -------------------------------------------------------------
@@ -47,8 +51,8 @@ Number of Threads requested = 2
 Number of Threads counted = 2
 -------------------------------------------------------------
 Your clock granularity/precision appears to be 1 microseconds.
-Each test below will take on the order of 4097 microseconds.
-   (= 4097 clock ticks)
+Each test below will take on the order of 3776 microseconds.
+   (= 3776 clock ticks)
 Increase the size of the arrays if this shows that
 you are not getting at least 20 clock ticks per test.
 -------------------------------------------------------------
@@ -57,13 +61,15 @@ For best results, please be sure you know the
 precision of your system timer.
 -------------------------------------------------------------
 Function    Best Rate MB/s  Avg time     Min time     Max time
-Copy:           53088.3     0.003026     0.003014     0.003037
-Scale:          31955.1     0.005024     0.005007     0.005047
-Add:            36297.3     0.006641     0.006612     0.006680
-Triad:          36254.2     0.006643     0.006620     0.006661
+Copy:           54568.9     0.002944     0.002932     0.002959
+Scale:          32232.9     0.004997     0.004964     0.005015
+Add:            36369.4     0.006615     0.006599     0.006634
+Triad:          36204.6     0.006664     0.006629     0.006682
 -------------------------------------------------------------
 Solution Validates: avg error less than 1.000000e-13 on all three arrays
 -------------------------------------------------------------
+
+libgomp: Invalid value for environment variable OMP_DISPLAY_ENV
 -------------------------------------------------------------
 STREAM version $Revision: 5.10 $
 -------------------------------------------------------------
@@ -80,8 +86,8 @@ Number of Threads requested = 3
 Number of Threads counted = 3
 -------------------------------------------------------------
 Your clock granularity/precision appears to be 1 microseconds.
-Each test below will take on the order of 3515 microseconds.
-   (= 3515 clock ticks)
+Each test below will take on the order of 2784 microseconds.
+   (= 2784 clock ticks)
 Increase the size of the arrays if this shows that
 you are not getting at least 20 clock ticks per test.
 -------------------------------------------------------------
@@ -90,13 +96,15 @@ For best results, please be sure you know the
 precision of your system timer.
 -------------------------------------------------------------
 Function    Best Rate MB/s  Avg time     Min time     Max time
-Copy:           49965.6     0.003257     0.003202     0.003620
-Scale:          31422.4     0.005236     0.005092     0.006303
-Add:            34177.6     0.007199     0.007022     0.008518
-Triad:          34250.9     0.007074     0.007007     0.007449
+Copy:           82392.7     0.001985     0.001942     0.002213
+Scale:          48471.6     0.003331     0.003301     0.003434
+Add:            53320.2     0.004510     0.004501     0.004528
+Triad:          53813.4     0.004476     0.004460     0.004494
 -------------------------------------------------------------
 Solution Validates: avg error less than 1.000000e-13 on all three arrays
 -------------------------------------------------------------
+
+libgomp: Invalid value for environment variable OMP_DISPLAY_ENV
 -------------------------------------------------------------
 STREAM version $Revision: 5.10 $
 -------------------------------------------------------------
@@ -113,8 +121,8 @@ Number of Threads requested = 4
 Number of Threads counted = 4
 -------------------------------------------------------------
 Your clock granularity/precision appears to be 1 microseconds.
-Each test below will take on the order of 4063 microseconds.
-   (= 4063 clock ticks)
+Each test below will take on the order of 1898 microseconds.
+   (= 1898 clock ticks)
 Increase the size of the arrays if this shows that
 you are not getting at least 20 clock ticks per test.
 -------------------------------------------------------------
@@ -123,13 +131,15 @@ For best results, please be sure you know the
 precision of your system timer.
 -------------------------------------------------------------
 Function    Best Rate MB/s  Avg time     Min time     Max time
-Copy:           43489.6     0.003713     0.003679     0.003816
-Scale:          27874.9     0.005808     0.005740     0.005988
-Add:            29929.0     0.008363     0.008019     0.009526
-Triad:          30207.4     0.008229     0.007945     0.008949
+Copy:          110722.4     0.001481     0.001445     0.001662
+Scale:          65363.7     0.002488     0.002448     0.002667
+Add:            69523.7     0.003494     0.003452     0.003738
+Triad:          71728.2     0.003371     0.003346     0.003473
 -------------------------------------------------------------
 Solution Validates: avg error less than 1.000000e-13 on all three arrays
 -------------------------------------------------------------
+
+libgomp: Invalid value for environment variable OMP_DISPLAY_ENV
 -------------------------------------------------------------
 STREAM version $Revision: 5.10 $
 -------------------------------------------------------------
@@ -146,8 +156,8 @@ Number of Threads requested = 5
 Number of Threads counted = 5
 -------------------------------------------------------------
 Your clock granularity/precision appears to be 1 microseconds.
-Each test below will take on the order of 4228 microseconds.
-   (= 4228 clock ticks)
+Each test below will take on the order of 2068 microseconds.
+   (= 2068 clock ticks)
 Increase the size of the arrays if this shows that
 you are not getting at least 20 clock ticks per test.
 -------------------------------------------------------------
@@ -156,13 +166,15 @@ For best results, please be sure you know the
 precision of your system timer.
 -------------------------------------------------------------
 Function    Best Rate MB/s  Avg time     Min time     Max time
-Copy:           39714.1     0.004047     0.004029     0.004074
-Scale:          28617.9     0.005686     0.005591     0.005709
-Add:            29951.3     0.008066     0.008013     0.008422
-Triad:          30557.7     0.007944     0.007854     0.008542
+Copy:           84424.3     0.001917     0.001895     0.001941
+Scale:          59409.4     0.002721     0.002693     0.002750
+Add:            61601.7     0.003915     0.003896     0.003934
+Triad:          63107.8     0.003826     0.003803     0.003845
 -------------------------------------------------------------
 Solution Validates: avg error less than 1.000000e-13 on all three arrays
 -------------------------------------------------------------
+
+libgomp: Invalid value for environment variable OMP_DISPLAY_ENV
 -------------------------------------------------------------
 STREAM version $Revision: 5.10 $
 -------------------------------------------------------------
@@ -179,8 +191,8 @@ Number of Threads requested = 6
 Number of Threads counted = 6
 -------------------------------------------------------------
 Your clock granularity/precision appears to be 1 microseconds.
-Each test below will take on the order of 5521 microseconds.
-   (= 5521 clock ticks)
+Each test below will take on the order of 1764 microseconds.
+   (= 1764 clock ticks)
 Increase the size of the arrays if this shows that
 you are not getting at least 20 clock ticks per test.
 -------------------------------------------------------------
@@ -189,13 +201,15 @@ For best results, please be sure you know the
 precision of your system timer.
 -------------------------------------------------------------
 Function    Best Rate MB/s  Avg time     Min time     Max time
-Copy:           31955.1     0.005221     0.005007     0.005509
-Scale:          22785.8     0.007252     0.007022     0.007665
-Add:            25055.0     0.010644     0.009579     0.012156
-Triad:          25354.1     0.010625     0.009466     0.012276
+Copy:          100507.5     0.001608     0.001592     0.001650
+Scale:          72362.4     0.002228     0.002211     0.002255
+Add:            72686.3     0.003314     0.003302     0.003325
+Triad:          74926.2     0.003215     0.003203     0.003228
 -------------------------------------------------------------
 Solution Validates: avg error less than 1.000000e-13 on all three arrays
 -------------------------------------------------------------
+
+libgomp: Invalid value for environment variable OMP_DISPLAY_ENV
 -------------------------------------------------------------
 STREAM version $Revision: 5.10 $
 -------------------------------------------------------------
@@ -212,8 +226,8 @@ Number of Threads requested = 7
 Number of Threads counted = 7
 -------------------------------------------------------------
 Your clock granularity/precision appears to be 1 microseconds.
-Each test below will take on the order of 4794 microseconds.
-   (= 4794 clock ticks)
+Each test below will take on the order of 1483 microseconds.
+   (= 1483 clock ticks)
 Increase the size of the arrays if this shows that
 you are not getting at least 20 clock ticks per test.
 -------------------------------------------------------------
@@ -222,13 +236,15 @@ For best results, please be sure you know the
 precision of your system timer.
 -------------------------------------------------------------
 Function    Best Rate MB/s  Avg time     Min time     Max time
-Copy:           33222.2     0.004968     0.004816     0.005862
-Scale:          25081.8     0.006755     0.006379     0.006917
-Add:            26648.8     0.009601     0.009006     0.010980
-Triad:          27066.6     0.009545     0.008867     0.010910
+Copy:          116975.5     0.001377     0.001368     0.001396
+Scale:          85882.9     0.001880     0.001863     0.001916
+Add:            84683.5     0.002857     0.002834     0.002887
+Triad:          88069.4     0.002743     0.002725     0.002764
 -------------------------------------------------------------
 Solution Validates: avg error less than 1.000000e-13 on all three arrays
 -------------------------------------------------------------
+
+libgomp: Invalid value for environment variable OMP_DISPLAY_ENV
 -------------------------------------------------------------
 STREAM version $Revision: 5.10 $
 -------------------------------------------------------------
@@ -245,8 +261,8 @@ Number of Threads requested = 8
 Number of Threads counted = 8
 -------------------------------------------------------------
 Your clock granularity/precision appears to be 1 microseconds.
-Each test below will take on the order of 4792 microseconds.
-   (= 4792 clock ticks)
+Each test below will take on the order of 1357 microseconds.
+   (= 1357 clock ticks)
 Increase the size of the arrays if this shows that
 you are not getting at least 20 clock ticks per test.
 -------------------------------------------------------------
@@ -255,13 +271,15 @@ For best results, please be sure you know the
 precision of your system timer.
 -------------------------------------------------------------
 Function    Best Rate MB/s  Avg time     Min time     Max time
-Copy:           35133.7     0.004788     0.004554     0.005492
-Scale:          25794.2     0.006481     0.006203     0.007091
-Add:            27054.2     0.009650     0.008871     0.011509
-Triad:          27548.8     0.009577     0.008712     0.011289
+Copy:          134919.3     0.001203     0.001186     0.001229
+Scale:         100748.9     0.001603     0.001588     0.001622
+Add:            96071.1     0.002511     0.002498     0.002537
+Triad:         101608.3     0.002373     0.002362     0.002395
 -------------------------------------------------------------
 Solution Validates: avg error less than 1.000000e-13 on all three arrays
 -------------------------------------------------------------
+
+libgomp: Invalid value for environment variable OMP_DISPLAY_ENV
 -------------------------------------------------------------
 STREAM version $Revision: 5.10 $
 -------------------------------------------------------------
@@ -278,8 +296,8 @@ Number of Threads requested = 9
 Number of Threads counted = 9
 -------------------------------------------------------------
 Your clock granularity/precision appears to be 1 microseconds.
-Each test below will take on the order of 2327 microseconds.
-   (= 2327 clock ticks)
+Each test below will take on the order of 1748 microseconds.
+   (= 1748 clock ticks)
 Increase the size of the arrays if this shows that
 you are not getting at least 20 clock ticks per test.
 -------------------------------------------------------------
@@ -288,13 +306,15 @@ For best results, please be sure you know the
 precision of your system timer.
 -------------------------------------------------------------
 Function    Best Rate MB/s  Avg time     Min time     Max time
-Copy:           71851.0     0.002267     0.002227     0.002312
-Scale:          47117.1     0.003460     0.003396     0.003496
-Add:            49843.2     0.004949     0.004815     0.005010
-Triad:          50632.9     0.004903     0.004740     0.004957
+Copy:           92589.5     0.001750     0.001728     0.001795
+Scale:          72992.0     0.002208     0.002192     0.002243
+Add:            73193.7     0.003294     0.003279     0.003315
+Triad:          74626.2     0.003227     0.003216     0.003235
 -------------------------------------------------------------
 Solution Validates: avg error less than 1.000000e-13 on all three arrays
 -------------------------------------------------------------
+
+libgomp: Invalid value for environment variable OMP_DISPLAY_ENV
 -------------------------------------------------------------
 STREAM version $Revision: 5.10 $
 -------------------------------------------------------------
@@ -311,8 +331,8 @@ Number of Threads requested = 10
 Number of Threads counted = 10
 -------------------------------------------------------------
 Your clock granularity/precision appears to be 1 microseconds.
-Each test below will take on the order of 2708 microseconds.
-   (= 2708 clock ticks)
+Each test below will take on the order of 1643 microseconds.
+   (= 1643 clock ticks)
 Increase the size of the arrays if this shows that
 you are not getting at least 20 clock ticks per test.
 -------------------------------------------------------------
@@ -321,13 +341,15 @@ For best results, please be sure you know the
 precision of your system timer.
 -------------------------------------------------------------
 Function    Best Rate MB/s  Avg time     Min time     Max time
-Copy:           63316.2     0.002567     0.002527     0.002642
-Scale:          41786.3     0.003848     0.003829     0.003884
-Add:            44403.7     0.005436     0.005405     0.005501
-Triad:          45053.6     0.005353     0.005327     0.005408
+Copy:          101587.7     0.001595     0.001575     0.001621
+Scale:          81472.5     0.001975     0.001964     0.001991
+Add:            81966.7     0.002945     0.002928     0.002956
+Triad:          83538.0     0.002896     0.002873     0.002909
 -------------------------------------------------------------
 Solution Validates: avg error less than 1.000000e-13 on all three arrays
 -------------------------------------------------------------
+
+libgomp: Invalid value for environment variable OMP_DISPLAY_ENV
 -------------------------------------------------------------
 STREAM version $Revision: 5.10 $
 -------------------------------------------------------------
@@ -344,8 +366,8 @@ Number of Threads requested = 11
 Number of Threads counted = 11
 -------------------------------------------------------------
 Your clock granularity/precision appears to be 1 microseconds.
-Each test below will take on the order of 2389 microseconds.
-   (= 2389 clock ticks)
+Each test below will take on the order of 1432 microseconds.
+   (= 1432 clock ticks)
 Increase the size of the arrays if this shows that
 you are not getting at least 20 clock ticks per test.
 -------------------------------------------------------------
@@ -354,13 +376,15 @@ For best results, please be sure you know the
 precision of your system timer.
 -------------------------------------------------------------
 Function    Best Rate MB/s  Avg time     Min time     Max time
-Copy:           64391.5     0.002527     0.002485     0.002569
-Scale:          49828.4     0.003246     0.003211     0.003262
-Add:            51054.1     0.004841     0.004701     0.004900
-Triad:          52265.5     0.004717     0.004592     0.004794
+Copy:          109440.4     0.001479     0.001462     0.001498
+Scale:          91791.6     0.001757     0.001743     0.001779
+Add:            87946.3     0.002750     0.002729     0.002776
+Triad:          91321.1     0.002640     0.002628     0.002660
 -------------------------------------------------------------
 Solution Validates: avg error less than 1.000000e-13 on all three arrays
 -------------------------------------------------------------
+
+libgomp: Invalid value for environment variable OMP_DISPLAY_ENV
 -------------------------------------------------------------
 STREAM version $Revision: 5.10 $
 -------------------------------------------------------------
@@ -377,8 +401,8 @@ Number of Threads requested = 12
 Number of Threads counted = 12
 -------------------------------------------------------------
 Your clock granularity/precision appears to be 1 microseconds.
-Each test below will take on the order of 4077 microseconds.
-   (= 4077 clock ticks)
+Each test below will take on the order of 1291 microseconds.
+   (= 1291 clock ticks)
 Increase the size of the arrays if this shows that
 you are not getting at least 20 clock ticks per test.
 -------------------------------------------------------------
@@ -387,13 +411,15 @@ For best results, please be sure you know the
 precision of your system timer.
 -------------------------------------------------------------
 Function    Best Rate MB/s  Avg time     Min time     Max time
-Copy:           35556.2     0.004586     0.004500     0.005012
-Scale:          30930.0     0.005191     0.005173     0.005237
-Add:            31538.1     0.007700     0.007610     0.008223
-Triad:          32858.9     0.007428     0.007304     0.007965
+Copy:          115188.6     0.001404     0.001389     0.001421
+Scale:         101403.5     0.001586     0.001578     0.001597
+Add:            94599.5     0.002554     0.002537     0.002570
+Triad:          99834.7     0.002409     0.002404     0.002417
 -------------------------------------------------------------
 Solution Validates: avg error less than 1.000000e-13 on all three arrays
 -------------------------------------------------------------
+
+libgomp: Invalid value for environment variable OMP_DISPLAY_ENV
 -------------------------------------------------------------
 STREAM version $Revision: 5.10 $
 -------------------------------------------------------------
@@ -410,8 +436,8 @@ Number of Threads requested = 13
 Number of Threads counted = 13
 -------------------------------------------------------------
 Your clock granularity/precision appears to be 1 microseconds.
-Each test below will take on the order of 2548 microseconds.
-   (= 2548 clock ticks)
+Each test below will take on the order of 1651 microseconds.
+   (= 1651 clock ticks)
 Increase the size of the arrays if this shows that
 you are not getting at least 20 clock ticks per test.
 -------------------------------------------------------------
@@ -420,13 +446,15 @@ For best results, please be sure you know the
 precision of your system timer.
 -------------------------------------------------------------
 Function    Best Rate MB/s  Avg time     Min time     Max time
-Copy:           54198.7     0.002969     0.002952     0.002998
-Scale:          42690.1     0.003771     0.003748     0.003785
-Add:            53098.1     0.004533     0.004520     0.004555
-Triad:          54818.5     0.004391     0.004378     0.004406
+Copy:           89395.0     0.001808     0.001790     0.001840
+Scale:          62160.9     0.002601     0.002574     0.002639
+Add:            80293.0     0.003008     0.002989     0.003038
+Triad:          83510.3     0.002912     0.002874     0.003004
 -------------------------------------------------------------
 Solution Validates: avg error less than 1.000000e-13 on all three arrays
 -------------------------------------------------------------
+
+libgomp: Invalid value for environment variable OMP_DISPLAY_ENV
 -------------------------------------------------------------
 STREAM version $Revision: 5.10 $
 -------------------------------------------------------------
@@ -443,8 +471,8 @@ Number of Threads requested = 14
 Number of Threads counted = 14
 -------------------------------------------------------------
 Your clock granularity/precision appears to be 1 microseconds.
-Each test below will take on the order of 4120 microseconds.
-   (= 4120 clock ticks)
+Each test below will take on the order of 1863 microseconds.
+   (= 1863 clock ticks)
 Increase the size of the arrays if this shows that
 you are not getting at least 20 clock ticks per test.
 -------------------------------------------------------------
@@ -453,13 +481,15 @@ For best results, please be sure you know the
 precision of your system timer.
 -------------------------------------------------------------
 Function    Best Rate MB/s  Avg time     Min time     Max time
-Copy:           31225.0     0.005229     0.005124     0.005279
-Scale:          26737.7     0.006149     0.005984     0.006211
-Add:            31290.1     0.007747     0.007670     0.008037
-Triad:          31319.3     0.007746     0.007663     0.008054
+Copy:           72463.9     0.002224     0.002208     0.002231
+Scale:          52564.3     0.003066     0.003044     0.003188
+Add:            67873.6     0.003581     0.003536     0.003597
+Triad:          69322.6     0.003480     0.003462     0.003489
 -------------------------------------------------------------
 Solution Validates: avg error less than 1.000000e-13 on all three arrays
 -------------------------------------------------------------
+
+libgomp: Invalid value for environment variable OMP_DISPLAY_ENV
 -------------------------------------------------------------
 STREAM version $Revision: 5.10 $
 -------------------------------------------------------------
@@ -476,8 +506,8 @@ Number of Threads requested = 15
 Number of Threads counted = 15
 -------------------------------------------------------------
 Your clock granularity/precision appears to be 1 microseconds.
-Each test below will take on the order of 2472 microseconds.
-   (= 2472 clock ticks)
+Each test below will take on the order of 2279 microseconds.
+   (= 2279 clock ticks)
 Increase the size of the arrays if this shows that
 you are not getting at least 20 clock ticks per test.
 -------------------------------------------------------------
@@ -486,13 +516,15 @@ For best results, please be sure you know the
 precision of your system timer.
 -------------------------------------------------------------
 Function    Best Rate MB/s  Avg time     Min time     Max time
-Copy:           45661.6     0.003587     0.003504     0.003663
-Scale:          35335.3     0.004547     0.004528     0.004564
-Add:            45207.4     0.005401     0.005309     0.005450
-Triad:          45532.5     0.005325     0.005271     0.005346
+Copy:           63894.9     0.002526     0.002504     0.002561
+Scale:          48120.5     0.003353     0.003325     0.003363
+Add:            61522.6     0.003917     0.003901     0.003937
+Triad:          63076.2     0.003840     0.003805     0.003874
 -------------------------------------------------------------
 Solution Validates: avg error less than 1.000000e-13 on all three arrays
 -------------------------------------------------------------
+
+libgomp: Invalid value for environment variable OMP_DISPLAY_ENV
 -------------------------------------------------------------
 STREAM version $Revision: 5.10 $
 -------------------------------------------------------------
@@ -509,8 +541,8 @@ Number of Threads requested = 16
 Number of Threads counted = 16
 -------------------------------------------------------------
 Your clock granularity/precision appears to be 1 microseconds.
-Each test below will take on the order of 4036 microseconds.
-   (= 4036 clock ticks)
+Each test below will take on the order of 1991 microseconds.
+   (= 1991 clock ticks)
 Increase the size of the arrays if this shows that
 you are not getting at least 20 clock ticks per test.
 -------------------------------------------------------------
@@ -519,13 +551,15 @@ For best results, please be sure you know the
 precision of your system timer.
 -------------------------------------------------------------
 Function    Best Rate MB/s  Avg time     Min time     Max time
-Copy:           33410.8     0.004806     0.004789     0.004830
-Scale:          28283.8     0.005666     0.005657     0.005686
-Add:            34572.0     0.007005     0.006942     0.007019
-Triad:          35650.7     0.006753     0.006732     0.006776
+Copy:           68583.4     0.002366     0.002333     0.002471
+Scale:          51330.0     0.003143     0.003117     0.003181
+Add:            66078.0     0.003719     0.003632     0.003904
+Triad:          66854.8     0.003655     0.003590     0.003878
 -------------------------------------------------------------
 Solution Validates: avg error less than 1.000000e-13 on all three arrays
 -------------------------------------------------------------
+
+libgomp: Invalid value for environment variable OMP_DISPLAY_ENV
 -------------------------------------------------------------
 STREAM version $Revision: 5.10 $
 -------------------------------------------------------------
@@ -542,8 +576,8 @@ Number of Threads requested = 17
 Number of Threads counted = 17
 -------------------------------------------------------------
 Your clock granularity/precision appears to be 1 microseconds.
-Each test below will take on the order of 4647 microseconds.
-   (= 4647 clock ticks)
+Each test below will take on the order of 1991 microseconds.
+   (= 1991 clock ticks)
 Increase the size of the arrays if this shows that
 you are not getting at least 20 clock ticks per test.
 -------------------------------------------------------------
@@ -552,13 +586,15 @@ For best results, please be sure you know the
 precision of your system timer.
 -------------------------------------------------------------
 Function    Best Rate MB/s  Avg time     Min time     Max time
-Copy:           33697.6     0.004847     0.004748     0.005011
-Scale:          29277.1     0.005582     0.005465     0.005656
-Add:            33486.3     0.007262     0.007167     0.007683
-Triad:          34812.3     0.007089     0.006894     0.007696
+Copy:           75259.5     0.002137     0.002126     0.002154
+Scale:          53494.5     0.003009     0.002991     0.003026
+Add:            69260.6     0.003474     0.003465     0.003484
+Triad:          70839.8     0.003431     0.003388     0.003722
 -------------------------------------------------------------
 Solution Validates: avg error less than 1.000000e-13 on all three arrays
 -------------------------------------------------------------
+
+libgomp: Invalid value for environment variable OMP_DISPLAY_ENV
 -------------------------------------------------------------
 STREAM version $Revision: 5.10 $
 -------------------------------------------------------------
@@ -575,8 +611,8 @@ Number of Threads requested = 18
 Number of Threads counted = 18
 -------------------------------------------------------------
 Your clock granularity/precision appears to be 1 microseconds.
-Each test below will take on the order of 3566 microseconds.
-   (= 3566 clock ticks)
+Each test below will take on the order of 1804 microseconds.
+   (= 1804 clock ticks)
 Increase the size of the arrays if this shows that
 you are not getting at least 20 clock ticks per test.
 -------------------------------------------------------------
@@ -585,13 +621,15 @@ For best results, please be sure you know the
 precision of your system timer.
 -------------------------------------------------------------
 Function    Best Rate MB/s  Avg time     Min time     Max time
-Copy:           48590.9     0.003469     0.003293     0.003658
-Scale:          41948.3     0.004279     0.003814     0.004833
-Add:            47384.3     0.005347     0.005065     0.007457
-Triad:          48435.4     0.005311     0.004955     0.007894
+Copy:           79796.5     0.002031     0.002005     0.002079
+Scale:          56498.5     0.002878     0.002832     0.002945
+Add:            73348.4     0.003306     0.003272     0.003444
+Triad:          75093.8     0.003207     0.003196     0.003254
 -------------------------------------------------------------
 Solution Validates: avg error less than 1.000000e-13 on all three arrays
 -------------------------------------------------------------
+
+libgomp: Invalid value for environment variable OMP_DISPLAY_ENV
 -------------------------------------------------------------
 STREAM version $Revision: 5.10 $
 -------------------------------------------------------------
@@ -608,8 +646,8 @@ Number of Threads requested = 19
 Number of Threads counted = 19
 -------------------------------------------------------------
 Your clock granularity/precision appears to be 1 microseconds.
-Each test below will take on the order of 2677 microseconds.
-   (= 2677 clock ticks)
+Each test below will take on the order of 1795 microseconds.
+   (= 1795 clock ticks)
 Increase the size of the arrays if this shows that
 you are not getting at least 20 clock ticks per test.
 -------------------------------------------------------------
@@ -618,13 +656,15 @@ For best results, please be sure you know the
 precision of your system timer.
 -------------------------------------------------------------
 Function    Best Rate MB/s  Avg time     Min time     Max time
-Copy:           57451.3     0.002841     0.002785     0.003090
-Scale:          47349.8     0.003475     0.003379     0.003503
-Add:            56142.4     0.004384     0.004275     0.004409
-Triad:          56406.6     0.004266     0.004255     0.004281
+Copy:           85196.0     0.001905     0.001878     0.001959
+Scale:          59132.0     0.002726     0.002706     0.002742
+Add:            76877.4     0.003147     0.003122     0.003210
+Triad:          79600.9     0.003049     0.003015     0.003107
 -------------------------------------------------------------
 Solution Validates: avg error less than 1.000000e-13 on all three arrays
 -------------------------------------------------------------
+
+libgomp: Invalid value for environment variable OMP_DISPLAY_ENV
 -------------------------------------------------------------
 STREAM version $Revision: 5.10 $
 -------------------------------------------------------------
@@ -641,8 +681,8 @@ Number of Threads requested = 20
 Number of Threads counted = 20
 -------------------------------------------------------------
 Your clock granularity/precision appears to be 1 microseconds.
-Each test below will take on the order of 3856 microseconds.
-   (= 3856 clock ticks)
+Each test below will take on the order of 1619 microseconds.
+   (= 1619 clock ticks)
 Increase the size of the arrays if this shows that
 you are not getting at least 20 clock ticks per test.
 -------------------------------------------------------------
@@ -651,13 +691,15 @@ For best results, please be sure you know the
 precision of your system timer.
 -------------------------------------------------------------
 Function    Best Rate MB/s  Avg time     Min time     Max time
-Copy:           34159.0     0.004945     0.004684     0.005224
-Scale:          28541.2     0.005687     0.005606     0.005893
-Add:            30577.2     0.008010     0.007849     0.008424
-Triad:          31261.9     0.007878     0.007677     0.008328
+Copy:           90091.1     0.001804     0.001776     0.001870
+Scale:          62403.6     0.002583     0.002564     0.002599
+Add:            81993.4     0.002975     0.002927     0.003059
+Triad:          83365.0     0.002901     0.002879     0.002970
 -------------------------------------------------------------
 Solution Validates: avg error less than 1.000000e-13 on all three arrays
 -------------------------------------------------------------
+
+libgomp: Invalid value for environment variable OMP_DISPLAY_ENV
 -------------------------------------------------------------
 STREAM version $Revision: 5.10 $
 -------------------------------------------------------------
@@ -674,8 +716,8 @@ Number of Threads requested = 21
 Number of Threads counted = 21
 -------------------------------------------------------------
 Your clock granularity/precision appears to be 1 microseconds.
-Each test below will take on the order of 5272 microseconds.
-   (= 5272 clock ticks)
+Each test below will take on the order of 1532 microseconds.
+   (= 1532 clock ticks)
 Increase the size of the arrays if this shows that
 you are not getting at least 20 clock ticks per test.
 -------------------------------------------------------------
@@ -684,13 +726,15 @@ For best results, please be sure you know the
 precision of your system timer.
 -------------------------------------------------------------
 Function    Best Rate MB/s  Avg time     Min time     Max time
-Copy:           44208.7     0.003899     0.003619     0.005595
-Scale:          38343.5     0.004512     0.004173     0.006739
-Add:            41060.2     0.006089     0.005845     0.007602
-Triad:          41812.4     0.005838     0.005740     0.005989
+Copy:           95692.1     0.001710     0.001672     0.001768
+Scale:          65198.5     0.002466     0.002454     0.002479
+Add:            84124.4     0.002891     0.002853     0.003058
+Triad:          87655.3     0.002758     0.002738     0.002780
 -------------------------------------------------------------
 Solution Validates: avg error less than 1.000000e-13 on all three arrays
 -------------------------------------------------------------
+
+libgomp: Invalid value for environment variable OMP_DISPLAY_ENV
 -------------------------------------------------------------
 STREAM version $Revision: 5.10 $
 -------------------------------------------------------------
@@ -707,8 +751,8 @@ Number of Threads requested = 22
 Number of Threads counted = 22
 -------------------------------------------------------------
 Your clock granularity/precision appears to be 1 microseconds.
-Each test below will take on the order of 1975 microseconds.
-   (= 1975 clock ticks)
+Each test below will take on the order of 1549 microseconds.
+   (= 1549 clock ticks)
 Increase the size of the arrays if this shows that
 you are not getting at least 20 clock ticks per test.
 -------------------------------------------------------------
@@ -717,13 +761,15 @@ For best results, please be sure you know the
 precision of your system timer.
 -------------------------------------------------------------
 Function    Best Rate MB/s  Avg time     Min time     Max time
-Copy:           69177.3     0.002337     0.002313     0.002411
-Scale:          52630.3     0.003054     0.003040     0.003059
-Add:            65023.8     0.003708     0.003691     0.003722
-Triad:          67800.4     0.003562     0.003540     0.003584
+Copy:          100387.2     0.001608     0.001594     0.001627
+Scale:          68879.1     0.002347     0.002323     0.002379
+Add:            88627.7     0.002749     0.002708     0.002949
+Triad:          92734.5     0.002604     0.002588     0.002619
 -------------------------------------------------------------
 Solution Validates: avg error less than 1.000000e-13 on all three arrays
 -------------------------------------------------------------
+
+libgomp: Invalid value for environment variable OMP_DISPLAY_ENV
 -------------------------------------------------------------
 STREAM version $Revision: 5.10 $
 -------------------------------------------------------------
@@ -740,8 +786,8 @@ Number of Threads requested = 23
 Number of Threads counted = 23
 -------------------------------------------------------------
 Your clock granularity/precision appears to be 1 microseconds.
-Each test below will take on the order of 2624 microseconds.
-   (= 2624 clock ticks)
+Each test below will take on the order of 1499 microseconds.
+   (= 1499 clock ticks)
 Increase the size of the arrays if this shows that
 you are not getting at least 20 clock ticks per test.
 -------------------------------------------------------------
@@ -750,13 +796,15 @@ For best results, please be sure you know the
 precision of your system timer.
 -------------------------------------------------------------
 Function    Best Rate MB/s  Avg time     Min time     Max time
-Copy:           48485.6     0.003374     0.003300     0.003422
-Scale:          40962.5     0.003940     0.003906     0.004052
-Add:            45530.5     0.005294     0.005271     0.005364
-Triad:          46584.0     0.005180     0.005152     0.005255
+Copy:          107822.7     0.001507     0.001484     0.001544
+Scale:          71851.0     0.002251     0.002227     0.002269
+Add:            92768.7     0.002602     0.002587     0.002618
+Triad:          96735.8     0.002495     0.002481     0.002517
 -------------------------------------------------------------
 Solution Validates: avg error less than 1.000000e-13 on all three arrays
 -------------------------------------------------------------
+
+libgomp: Invalid value for environment variable OMP_DISPLAY_ENV
 -------------------------------------------------------------
 STREAM version $Revision: 5.10 $
 -------------------------------------------------------------
@@ -773,8 +821,8 @@ Number of Threads requested = 24
 Number of Threads counted = 24
 -------------------------------------------------------------
 Your clock granularity/precision appears to be 1 microseconds.
-Each test below will take on the order of 4836 microseconds.
-   (= 4836 clock ticks)
+Each test below will take on the order of 1354 microseconds.
+   (= 1354 clock ticks)
 Increase the size of the arrays if this shows that
 you are not getting at least 20 clock ticks per test.
 -------------------------------------------------------------
@@ -783,13 +831,15 @@ For best results, please be sure you know the
 precision of your system timer.
 -------------------------------------------------------------
 Function    Best Rate MB/s  Avg time     Min time     Max time
-Copy:           31733.0     0.005765     0.005042     0.008459
-Scale:          29695.5     0.005678     0.005388     0.005787
-Add:            30407.3     0.008465     0.007893     0.011431
-Triad:          32206.1     0.008114     0.007452     0.011866
+Copy:          113551.4     0.001428     0.001409     0.001471
+Scale:          75863.5     0.002128     0.002109     0.002153
+Add:            96043.6     0.002523     0.002499     0.002558
+Triad:         101087.9     0.002390     0.002374     0.002410
 -------------------------------------------------------------
 Solution Validates: avg error less than 1.000000e-13 on all three arrays
 -------------------------------------------------------------
+
+libgomp: Invalid value for environment variable OMP_DISPLAY_ENV
 -------------------------------------------------------------
 STREAM version $Revision: 5.10 $
 -------------------------------------------------------------
@@ -806,8 +856,8 @@ Number of Threads requested = 25
 Number of Threads counted = 25
 -------------------------------------------------------------
 Your clock granularity/precision appears to be 1 microseconds.
-Each test below will take on the order of 2445 microseconds.
-   (= 2445 clock ticks)
+Each test below will take on the order of 1480 microseconds.
+   (= 1480 clock ticks)
 Increase the size of the arrays if this shows that
 you are not getting at least 20 clock ticks per test.
 -------------------------------------------------------------
@@ -816,13 +866,15 @@ For best results, please be sure you know the
 precision of your system timer.
 -------------------------------------------------------------
 Function    Best Rate MB/s  Avg time     Min time     Max time
-Copy:           46018.6     0.003535     0.003477     0.003585
-Scale:          35987.2     0.004490     0.004446     0.004518
-Add:            43852.4     0.005515     0.005473     0.005573
-Triad:          44894.9     0.005373     0.005346     0.005412
+Copy:           87769.9     0.001857     0.001823     0.001910
+Scale:          65230.2     0.002510     0.002453     0.002560
+Add:            80808.6     0.003021     0.002970     0.003068
+Triad:          84005.1     0.002910     0.002857     0.002971
 -------------------------------------------------------------
 Solution Validates: avg error less than 1.000000e-13 on all three arrays
 -------------------------------------------------------------
+
+libgomp: Invalid value for environment variable OMP_DISPLAY_ENV
 -------------------------------------------------------------
 STREAM version $Revision: 5.10 $
 -------------------------------------------------------------
@@ -839,8 +891,8 @@ Number of Threads requested = 26
 Number of Threads counted = 26
 -------------------------------------------------------------
 Your clock granularity/precision appears to be 1 microseconds.
-Each test below will take on the order of 6815 microseconds.
-   (= 6815 clock ticks)
+Each test below will take on the order of 1559 microseconds.
+   (= 1559 clock ticks)
 Increase the size of the arrays if this shows that
 you are not getting at least 20 clock ticks per test.
 -------------------------------------------------------------
@@ -849,13 +901,15 @@ For best results, please be sure you know the
 precision of your system timer.
 -------------------------------------------------------------
 Function    Best Rate MB/s  Avg time     Min time     Max time
-Copy:           34572.6     0.004675     0.004628     0.004700
-Scale:          29148.6     0.005542     0.005489     0.005605
-Add:            34051.6     0.007087     0.007048     0.007190
-Triad:          34522.2     0.007085     0.006952     0.007908
+Copy:           82433.2     0.001980     0.001941     0.002023
+Scale:          60263.0     0.002689     0.002655     0.002738
+Add:            74532.3     0.003254     0.003220     0.003295
+Triad:          79001.2     0.003070     0.003038     0.003115
 -------------------------------------------------------------
 Solution Validates: avg error less than 1.000000e-13 on all three arrays
 -------------------------------------------------------------
+
+libgomp: Invalid value for environment variable OMP_DISPLAY_ENV
 -------------------------------------------------------------
 STREAM version $Revision: 5.10 $
 -------------------------------------------------------------
@@ -872,8 +926,8 @@ Number of Threads requested = 27
 Number of Threads counted = 27
 -------------------------------------------------------------
 Your clock granularity/precision appears to be 1 microseconds.
-Each test below will take on the order of 5471 microseconds.
-   (= 5471 clock ticks)
+Each test below will take on the order of 1761 microseconds.
+   (= 1761 clock ticks)
 Increase the size of the arrays if this shows that
 you are not getting at least 20 clock ticks per test.
 -------------------------------------------------------------
@@ -882,13 +936,15 @@ For best results, please be sure you know the
 precision of your system timer.
 -------------------------------------------------------------
 Function    Best Rate MB/s  Avg time     Min time     Max time
-Copy:           50793.9     0.003389     0.003150     0.005047
-Scale:          41173.6     0.004041     0.003886     0.005106
-Add:            48979.8     0.004939     0.004900     0.004968
-Triad:          50912.0     0.004813     0.004714     0.004843
+Copy:           73802.8     0.002303     0.002168     0.002478
+Scale:          56780.5     0.002888     0.002818     0.002946
+Add:            68223.2     0.003570     0.003518     0.003611
+Triad:          70924.6     0.003478     0.003384     0.003600
 -------------------------------------------------------------
 Solution Validates: avg error less than 1.000000e-13 on all three arrays
 -------------------------------------------------------------
+
+libgomp: Invalid value for environment variable OMP_DISPLAY_ENV
 -------------------------------------------------------------
 STREAM version $Revision: 5.10 $
 -------------------------------------------------------------
@@ -905,8 +961,8 @@ Number of Threads requested = 28
 Number of Threads counted = 28
 -------------------------------------------------------------
 Your clock granularity/precision appears to be 1 microseconds.
-Each test below will take on the order of 4217 microseconds.
-   (= 4217 clock ticks)
+Each test below will take on the order of 2017 microseconds.
+   (= 2017 clock ticks)
 Increase the size of the arrays if this shows that
 you are not getting at least 20 clock ticks per test.
 -------------------------------------------------------------
@@ -915,13 +971,15 @@ For best results, please be sure you know the
 precision of your system timer.
 -------------------------------------------------------------
 Function    Best Rate MB/s  Avg time     Min time     Max time
-Copy:           59790.5     0.002719     0.002676     0.002758
-Scale:          45899.0     0.003504     0.003486     0.003518
-Add:            55516.9     0.004333     0.004323     0.004357
-Triad:          57541.6     0.004191     0.004171     0.004214
+Copy:           69234.4     0.002422     0.002311     0.002505
+Scale:          52721.2     0.003101     0.003035     0.003167
+Add:            65357.3     0.003761     0.003672     0.003929
+Triad:          67189.5     0.003651     0.003572     0.003715
 -------------------------------------------------------------
 Solution Validates: avg error less than 1.000000e-13 on all three arrays
 -------------------------------------------------------------
+
+libgomp: Invalid value for environment variable OMP_DISPLAY_ENV
 -------------------------------------------------------------
 STREAM version $Revision: 5.10 $
 -------------------------------------------------------------
@@ -938,8 +996,8 @@ Number of Threads requested = 29
 Number of Threads counted = 29
 -------------------------------------------------------------
 Your clock granularity/precision appears to be 1 microseconds.
-Each test below will take on the order of 1718 microseconds.
-   (= 1718 clock ticks)
+Each test below will take on the order of 2155 microseconds.
+   (= 2155 clock ticks)
 Increase the size of the arrays if this shows that
 you are not getting at least 20 clock ticks per test.
 -------------------------------------------------------------
@@ -948,13 +1006,15 @@ For best results, please be sure you know the
 precision of your system timer.
 -------------------------------------------------------------
 Function    Best Rate MB/s  Avg time     Min time     Max time
-Copy:           62040.2     0.002599     0.002579     0.002615
-Scale:          49611.0     0.003324     0.003225     0.003384
-Add:            59465.6     0.004063     0.004036     0.004080
-Triad:          61507.6     0.003941     0.003902     0.003971
+Copy:           63646.5     0.002572     0.002514     0.002621
+Scale:          49020.4     0.003337     0.003264     0.003392
+Add:            61984.8     0.003967     0.003872     0.004023
+Triad:          62253.1     0.003896     0.003855     0.003930
 -------------------------------------------------------------
 Solution Validates: avg error less than 1.000000e-13 on all three arrays
 -------------------------------------------------------------
+
+libgomp: Invalid value for environment variable OMP_DISPLAY_ENV
 -------------------------------------------------------------
 STREAM version $Revision: 5.10 $
 -------------------------------------------------------------
@@ -971,8 +1031,8 @@ Number of Threads requested = 30
 Number of Threads counted = 30
 -------------------------------------------------------------
 Your clock granularity/precision appears to be 1 microseconds.
-Each test below will take on the order of 1977 microseconds.
-   (= 1977 clock ticks)
+Each test below will take on the order of 2426 microseconds.
+   (= 2426 clock ticks)
 Increase the size of the arrays if this shows that
 you are not getting at least 20 clock ticks per test.
 -------------------------------------------------------------
@@ -981,13 +1041,15 @@ For best results, please be sure you know the
 precision of your system timer.
 -------------------------------------------------------------
 Function    Best Rate MB/s  Avg time     Min time     Max time
-Copy:           69963.4     0.002317     0.002287     0.002342
-Scale:          53601.3     0.003005     0.002985     0.003021
-Add:            63226.7     0.003809     0.003796     0.003832
-Triad:          65523.2     0.003690     0.003663     0.003704
+Copy:           60219.7     0.002710     0.002657     0.002830
+Scale:          46483.9     0.003529     0.003442     0.003672
+Add:            57581.1     0.004240     0.004168     0.004358
+Triad:          59744.4     0.004071     0.004017     0.004160
 -------------------------------------------------------------
 Solution Validates: avg error less than 1.000000e-13 on all three arrays
 -------------------------------------------------------------
+
+libgomp: Invalid value for environment variable OMP_DISPLAY_ENV
 -------------------------------------------------------------
 STREAM version $Revision: 5.10 $
 -------------------------------------------------------------
@@ -1004,8 +1066,8 @@ Number of Threads requested = 31
 Number of Threads counted = 31
 -------------------------------------------------------------
 Your clock granularity/precision appears to be 1 microseconds.
-Each test below will take on the order of 7865 microseconds.
-   (= 7865 clock ticks)
+Each test below will take on the order of 2252 microseconds.
+   (= 2252 clock ticks)
 Increase the size of the arrays if this shows that
 you are not getting at least 20 clock ticks per test.
 -------------------------------------------------------------
@@ -1014,13 +1076,15 @@ For best results, please be sure you know the
 precision of your system timer.
 -------------------------------------------------------------
 Function    Best Rate MB/s  Avg time     Min time     Max time
-Copy:           32907.8     0.005789     0.004862     0.008699
-Scale:          29048.9     0.006363     0.005508     0.009640
-Add:            33806.9     0.007647     0.007099     0.009415
-Triad:          32921.2     0.007866     0.007290     0.010748
+Copy:           61777.5     0.002645     0.002590     0.002704
+Scale:          47876.8     0.003414     0.003342     0.003486
+Add:            59419.9     0.004075     0.004039     0.004116
+Triad:          61253.1     0.003982     0.003918     0.004059
 -------------------------------------------------------------
 Solution Validates: avg error less than 1.000000e-13 on all three arrays
 -------------------------------------------------------------
+
+libgomp: Invalid value for environment variable OMP_DISPLAY_ENV
 -------------------------------------------------------------
 STREAM version $Revision: 5.10 $
 -------------------------------------------------------------
@@ -1037,8 +1101,8 @@ Number of Threads requested = 32
 Number of Threads counted = 32
 -------------------------------------------------------------
 Your clock granularity/precision appears to be 1 microseconds.
-Each test below will take on the order of 2099 microseconds.
-   (= 2099 clock ticks)
+Each test below will take on the order of 2110 microseconds.
+   (= 2110 clock ticks)
 Increase the size of the arrays if this shows that
 you are not getting at least 20 clock ticks per test.
 -------------------------------------------------------------
@@ -1047,13 +1111,15 @@ For best results, please be sure you know the
 precision of your system timer.
 -------------------------------------------------------------
 Function    Best Rate MB/s  Avg time     Min time     Max time
-Copy:           75829.2     0.002274     0.002110     0.002775
-Scale:          58370.8     0.002918     0.002741     0.003419
-Add:            68163.1     0.003644     0.003521     0.004304
-Triad:          70031.5     0.003606     0.003427     0.004250
+Copy:           64102.5     0.002625     0.002496     0.002773
+Scale:          48721.4     0.003330     0.003284     0.003414
+Add:            62337.9     0.003992     0.003850     0.004117
+Triad:          63795.7     0.003852     0.003762     0.003945
 -------------------------------------------------------------
 Solution Validates: avg error less than 1.000000e-13 on all three arrays
 -------------------------------------------------------------
+
+libgomp: Invalid value for environment variable OMP_DISPLAY_ENV
 -------------------------------------------------------------
 STREAM version $Revision: 5.10 $
 -------------------------------------------------------------
@@ -1070,8 +1136,8 @@ Number of Threads requested = 33
 Number of Threads counted = 33
 -------------------------------------------------------------
 Your clock granularity/precision appears to be 1 microseconds.
-Each test below will take on the order of 2423 microseconds.
-   (= 2423 clock ticks)
+Each test below will take on the order of 1861 microseconds.
+   (= 1861 clock ticks)
 Increase the size of the arrays if this shows that
 you are not getting at least 20 clock ticks per test.
 -------------------------------------------------------------
@@ -1080,13 +1146,15 @@ For best results, please be sure you know the
 precision of your system timer.
 -------------------------------------------------------------
 Function    Best Rate MB/s  Avg time     Min time     Max time
-Copy:           56775.7     0.002868     0.002818     0.002905
-Scale:          41895.9     0.003853     0.003819     0.003896
-Add:            53179.4     0.004542     0.004513     0.004566
-Triad:          54782.7     0.004402     0.004381     0.004426
+Copy:           66748.4     0.002490     0.002397     0.002648
+Scale:          51267.3     0.003185     0.003121     0.003264
+Add:            63828.1     0.003845     0.003760     0.003906
+Triad:          66008.7     0.003739     0.003636     0.003845
 -------------------------------------------------------------
 Solution Validates: avg error less than 1.000000e-13 on all three arrays
 -------------------------------------------------------------
+
+libgomp: Invalid value for environment variable OMP_DISPLAY_ENV
 -------------------------------------------------------------
 STREAM version $Revision: 5.10 $
 -------------------------------------------------------------
@@ -1103,8 +1171,8 @@ Number of Threads requested = 34
 Number of Threads counted = 34
 -------------------------------------------------------------
 Your clock granularity/precision appears to be 1 microseconds.
-Each test below will take on the order of 3371 microseconds.
-   (= 3371 clock ticks)
+Each test below will take on the order of 2005 microseconds.
+   (= 2005 clock ticks)
 Increase the size of the arrays if this shows that
 you are not getting at least 20 clock ticks per test.
 -------------------------------------------------------------
@@ -1113,13 +1181,15 @@ For best results, please be sure you know the
 precision of your system timer.
 -------------------------------------------------------------
 Function    Best Rate MB/s  Avg time     Min time     Max time
-Copy:           36747.8     0.004709     0.004354     0.004778
-Scale:          30159.9     0.005602     0.005305     0.005737
-Add:            35476.1     0.007247     0.006765     0.007327
-Triad:          35497.3     0.007157     0.006761     0.007260
+Copy:           71301.4     0.002342     0.002244     0.002396
+Scale:          52338.8     0.003152     0.003057     0.003265
+Add:            66426.9     0.003699     0.003613     0.003792
+Triad:          68357.5     0.003584     0.003511     0.003662
 -------------------------------------------------------------
 Solution Validates: avg error less than 1.000000e-13 on all three arrays
 -------------------------------------------------------------
+
+libgomp: Invalid value for environment variable OMP_DISPLAY_ENV
 -------------------------------------------------------------
 STREAM version $Revision: 5.10 $
 -------------------------------------------------------------
@@ -1136,8 +1206,8 @@ Number of Threads requested = 35
 Number of Threads counted = 35
 -------------------------------------------------------------
 Your clock granularity/precision appears to be 1 microseconds.
-Each test below will take on the order of 3880 microseconds.
-   (= 3880 clock ticks)
+Each test below will take on the order of 2023 microseconds.
+   (= 2023 clock ticks)
 Increase the size of the arrays if this shows that
 you are not getting at least 20 clock ticks per test.
 -------------------------------------------------------------
@@ -1146,13 +1216,15 @@ For best results, please be sure you know the
 precision of your system timer.
 -------------------------------------------------------------
 Function    Best Rate MB/s  Avg time     Min time     Max time
-Copy:           53210.3     0.003485     0.003007     0.003819
-Scale:          42071.9     0.004909     0.003803     0.008005
-Add:            51691.1     0.006104     0.004643     0.009114
-Triad:          53787.5     0.005098     0.004462     0.005893
+Copy:           73431.3     0.002252     0.002179     0.002340
+Scale:          54220.6     0.003024     0.002951     0.003148
+Add:            67468.7     0.003620     0.003557     0.003683
+Triad:          70650.8     0.003464     0.003397     0.003537
 -------------------------------------------------------------
 Solution Validates: avg error less than 1.000000e-13 on all three arrays
 -------------------------------------------------------------
+
+libgomp: Invalid value for environment variable OMP_DISPLAY_ENV
 -------------------------------------------------------------
 STREAM version $Revision: 5.10 $
 -------------------------------------------------------------
@@ -1169,8 +1241,8 @@ Number of Threads requested = 36
 Number of Threads counted = 36
 -------------------------------------------------------------
 Your clock granularity/precision appears to be 1 microseconds.
-Each test below will take on the order of 21311 microseconds.
-   (= 21311 clock ticks)
+Each test below will take on the order of 1982 microseconds.
+   (= 1982 clock ticks)
 Increase the size of the arrays if this shows that
 you are not getting at least 20 clock ticks per test.
 -------------------------------------------------------------
@@ -1179,13 +1251,15 @@ For best results, please be sure you know the
 precision of your system timer.
 -------------------------------------------------------------
 Function    Best Rate MB/s  Avg time     Min time     Max time
-Copy:           54796.2     0.003229     0.002920     0.004459
-Scale:          40877.7     0.004075     0.003914     0.004174
-Add:            49140.0     0.004930     0.004884     0.004991
-Triad:          51150.0     0.004757     0.004692     0.004808
+Copy:           76225.4     0.002128     0.002099     0.002194
+Scale:          54926.2     0.002938     0.002913     0.002960
+Add:            69929.3     0.003493     0.003432     0.003541
+Triad:          70443.2     0.003433     0.003407     0.003466
 -------------------------------------------------------------
 Solution Validates: avg error less than 1.000000e-13 on all three arrays
 -------------------------------------------------------------
+
+libgomp: Invalid value for environment variable OMP_DISPLAY_ENV
 -------------------------------------------------------------
 STREAM version $Revision: 5.10 $
 -------------------------------------------------------------
@@ -1202,8 +1276,8 @@ Number of Threads requested = 37
 Number of Threads counted = 37
 -------------------------------------------------------------
 Your clock granularity/precision appears to be 1 microseconds.
-Each test below will take on the order of 2737 microseconds.
-   (= 2737 clock ticks)
+Each test below will take on the order of 1917 microseconds.
+   (= 1917 clock ticks)
 Increase the size of the arrays if this shows that
 you are not getting at least 20 clock ticks per test.
 -------------------------------------------------------------
@@ -1212,13 +1286,15 @@ For best results, please be sure you know the
 precision of your system timer.
 -------------------------------------------------------------
 Function    Best Rate MB/s  Avg time     Min time     Max time
-Copy:           46215.0     0.003889     0.003462     0.005387
-Scale:          35843.0     0.004844     0.004464     0.005824
-Add:            43025.9     0.006215     0.005578     0.010422
-Triad:          44263.2     0.005525     0.005422     0.005596
+Copy:           78738.5     0.002117     0.002032     0.002215
+Scale:          56536.5     0.002875     0.002830     0.002930
+Add:            72419.6     0.003414     0.003314     0.003474
+Triad:          74770.3     0.003279     0.003210     0.003387
 -------------------------------------------------------------
 Solution Validates: avg error less than 1.000000e-13 on all three arrays
 -------------------------------------------------------------
+
+libgomp: Invalid value for environment variable OMP_DISPLAY_ENV
 -------------------------------------------------------------
 STREAM version $Revision: 5.10 $
 -------------------------------------------------------------
@@ -1235,8 +1311,8 @@ Number of Threads requested = 38
 Number of Threads counted = 38
 -------------------------------------------------------------
 Your clock granularity/precision appears to be 1 microseconds.
-Each test below will take on the order of 2289 microseconds.
-   (= 2289 clock ticks)
+Each test below will take on the order of 1761 microseconds.
+   (= 1761 clock ticks)
 Increase the size of the arrays if this shows that
 you are not getting at least 20 clock ticks per test.
 -------------------------------------------------------------
@@ -1245,13 +1321,15 @@ For best results, please be sure you know the
 precision of your system timer.
 -------------------------------------------------------------
 Function    Best Rate MB/s  Avg time     Min time     Max time
-Copy:           69120.3     0.003090     0.002315     0.005431
-Scale:          51677.9     0.003527     0.003096     0.004104
-Add:            60820.1     0.004708     0.003946     0.006450
-Triad:          64255.9     0.004158     0.003735     0.005306
+Copy:           80283.4     0.002075     0.001993     0.002277
+Scale:          58800.4     0.002753     0.002721     0.002771
+Add:            73848.8     0.003382     0.003250     0.003532
+Triad:          76947.9     0.003164     0.003119     0.003286
 -------------------------------------------------------------
 Solution Validates: avg error less than 1.000000e-13 on all three arrays
 -------------------------------------------------------------
+
+libgomp: Invalid value for environment variable OMP_DISPLAY_ENV
 -------------------------------------------------------------
 STREAM version $Revision: 5.10 $
 -------------------------------------------------------------
@@ -1268,8 +1346,8 @@ Number of Threads requested = 39
 Number of Threads counted = 39
 -------------------------------------------------------------
 Your clock granularity/precision appears to be 1 microseconds.
-Each test below will take on the order of 2863 microseconds.
-   (= 2863 clock ticks)
+Each test below will take on the order of 1691 microseconds.
+   (= 1691 clock ticks)
 Increase the size of the arrays if this shows that
 you are not getting at least 20 clock ticks per test.
 -------------------------------------------------------------
@@ -1278,13 +1356,15 @@ For best results, please be sure you know the
 precision of your system timer.
 -------------------------------------------------------------
 Function    Best Rate MB/s  Avg time     Min time     Max time
-Copy:           62841.9     0.002636     0.002546     0.003105
-Scale:          45325.5     0.003619     0.003530     0.004231
-Add:            55529.2     0.004515     0.004322     0.005840
-Triad:          57985.8     0.004159     0.004139     0.004184
+Copy:           83729.1     0.001942     0.001911     0.001984
+Scale:          60333.4     0.002695     0.002652     0.002722
+Add:            72419.6     0.003331     0.003314     0.003354
+Triad:          79131.6     0.003051     0.003033     0.003075
 -------------------------------------------------------------
 Solution Validates: avg error less than 1.000000e-13 on all three arrays
 -------------------------------------------------------------
+
+libgomp: Invalid value for environment variable OMP_DISPLAY_ENV
 -------------------------------------------------------------
 STREAM version $Revision: 5.10 $
 -------------------------------------------------------------
@@ -1301,8 +1381,8 @@ Number of Threads requested = 40
 Number of Threads counted = 40
 -------------------------------------------------------------
 Your clock granularity/precision appears to be 1 microseconds.
-Each test below will take on the order of 2620 microseconds.
-   (= 2620 clock ticks)
+Each test below will take on the order of 1875 microseconds.
+   (= 1875 clock ticks)
 Increase the size of the arrays if this shows that
 you are not getting at least 20 clock ticks per test.
 -------------------------------------------------------------
@@ -1311,13 +1391,15 @@ For best results, please be sure you know the
 precision of your system timer.
 -------------------------------------------------------------
 Function    Best Rate MB/s  Avg time     Min time     Max time
-Copy:           39681.2     0.004267     0.004032     0.004369
-Scale:          30418.3     0.005783     0.005260     0.008040
-Add:            35165.0     0.007406     0.006825     0.010238
-Triad:          34642.2     0.007302     0.006928     0.009902
+Copy:           87769.9     0.001901     0.001823     0.001962
+Scale:          61488.8     0.002643     0.002602     0.002677
+Add:            78075.9     0.003173     0.003074     0.003264
+Triad:          80595.1     0.003012     0.002978     0.003187
 -------------------------------------------------------------
 Solution Validates: avg error less than 1.000000e-13 on all three arrays
 -------------------------------------------------------------
+
+libgomp: Invalid value for environment variable OMP_DISPLAY_ENV
 -------------------------------------------------------------
 STREAM version $Revision: 5.10 $
 -------------------------------------------------------------
@@ -1334,8 +1416,8 @@ Number of Threads requested = 41
 Number of Threads counted = 41
 -------------------------------------------------------------
 Your clock granularity/precision appears to be 1 microseconds.
-Each test below will take on the order of 3636 microseconds.
-   (= 3636 clock ticks)
+Each test below will take on the order of 1574 microseconds.
+   (= 1574 clock ticks)
 Increase the size of the arrays if this shows that
 you are not getting at least 20 clock ticks per test.
 -------------------------------------------------------------
@@ -1344,13 +1426,15 @@ For best results, please be sure you know the
 precision of your system timer.
 -------------------------------------------------------------
 Function    Best Rate MB/s  Avg time     Min time     Max time
-Copy:           48795.8     0.003500     0.003279     0.003575
-Scale:          39080.4     0.004566     0.004094     0.004688
-Add:            45429.8     0.005537     0.005283     0.005639
-Triad:          45766.4     0.005354     0.005244     0.005416
+Copy:           89586.0     0.001838     0.001786     0.001902
+Scale:          62642.5     0.002577     0.002554     0.002600
+Add:            78563.4     0.003137     0.003055     0.003192
+Triad:          82789.1     0.002945     0.002899     0.003009
 -------------------------------------------------------------
 Solution Validates: avg error less than 1.000000e-13 on all three arrays
 -------------------------------------------------------------
+
+libgomp: Invalid value for environment variable OMP_DISPLAY_ENV
 -------------------------------------------------------------
 STREAM version $Revision: 5.10 $
 -------------------------------------------------------------
@@ -1367,8 +1451,8 @@ Number of Threads requested = 42
 Number of Threads counted = 42
 -------------------------------------------------------------
 Your clock granularity/precision appears to be 1 microseconds.
-Each test below will take on the order of 2073 microseconds.
-   (= 2073 clock ticks)
+Each test below will take on the order of 1657 microseconds.
+   (= 1657 clock ticks)
 Increase the size of the arrays if this shows that
 you are not getting at least 20 clock ticks per test.
 -------------------------------------------------------------
@@ -1377,13 +1461,15 @@ For best results, please be sure you know the
 precision of your system timer.
 -------------------------------------------------------------
 Function    Best Rate MB/s  Avg time     Min time     Max time
-Copy:           74557.1     0.002302     0.002146     0.003080
-Scale:          53567.1     0.003294     0.002987     0.004426
-Add:            67283.8     0.004262     0.003567     0.006507
-Triad:          69265.3     0.003761     0.003465     0.005211
+Copy:           92220.5     0.001780     0.001735     0.001918
+Scale:          64102.5     0.002513     0.002496     0.002522
+Add:            81826.8     0.002990     0.002933     0.003123
+Triad:          84740.5     0.002869     0.002832     0.002992
 -------------------------------------------------------------
 Solution Validates: avg error less than 1.000000e-13 on all three arrays
 -------------------------------------------------------------
+
+libgomp: Invalid value for environment variable OMP_DISPLAY_ENV
 -------------------------------------------------------------
 STREAM version $Revision: 5.10 $
 -------------------------------------------------------------
@@ -1400,8 +1486,8 @@ Number of Threads requested = 43
 Number of Threads counted = 43
 -------------------------------------------------------------
 Your clock granularity/precision appears to be 1 microseconds.
-Each test below will take on the order of 3925 microseconds.
-   (= 3925 clock ticks)
+Each test below will take on the order of 1588 microseconds.
+   (= 1588 clock ticks)
 Increase the size of the arrays if this shows that
 you are not getting at least 20 clock ticks per test.
 -------------------------------------------------------------
@@ -1410,13 +1496,15 @@ For best results, please be sure you know the
 precision of your system timer.
 -------------------------------------------------------------
 Function    Best Rate MB/s  Avg time     Min time     Max time
-Copy:           53050.5     0.003678     0.003016     0.004193
-Scale:          43326.8     0.005115     0.003693     0.006156
-Add:            52014.3     0.006400     0.004614     0.008855
-Triad:          51869.6     0.006411     0.004627     0.007748
+Copy:           95068.5     0.001778     0.001683     0.001851
+Scale:          65147.9     0.002472     0.002456     0.002498
+Add:            80402.0     0.003017     0.002985     0.003040
+Triad:          87556.1     0.002771     0.002741     0.002796
 -------------------------------------------------------------
 Solution Validates: avg error less than 1.000000e-13 on all three arrays
 -------------------------------------------------------------
+
+libgomp: Invalid value for environment variable OMP_DISPLAY_ENV
 -------------------------------------------------------------
 STREAM version $Revision: 5.10 $
 -------------------------------------------------------------
@@ -1433,8 +1521,8 @@ Number of Threads requested = 44
 Number of Threads counted = 44
 -------------------------------------------------------------
 Your clock granularity/precision appears to be 1 microseconds.
-Each test below will take on the order of 1895 microseconds.
-   (= 1895 clock ticks)
+Each test below will take on the order of 1549 microseconds.
+   (= 1549 clock ticks)
 Increase the size of the arrays if this shows that
 you are not getting at least 20 clock ticks per test.
 -------------------------------------------------------------
@@ -1443,13 +1531,15 @@ For best results, please be sure you know the
 precision of your system timer.
 -------------------------------------------------------------
 Function    Best Rate MB/s  Avg time     Min time     Max time
-Copy:           83416.9     0.001937     0.001918     0.001968
-Scale:          61348.3     0.002623     0.002608     0.002641
-Add:            74077.0     0.003269     0.003240     0.003304
-Triad:          74676.0     0.003233     0.003214     0.003261
+Copy:           97315.6     0.001735     0.001644     0.001905
+Scale:          67142.4     0.002408     0.002383     0.002438
+Add:            83482.6     0.003015     0.002875     0.003099
+Triad:          89454.6     0.002792     0.002683     0.002902
 -------------------------------------------------------------
 Solution Validates: avg error less than 1.000000e-13 on all three arrays
 -------------------------------------------------------------
+
+libgomp: Invalid value for environment variable OMP_DISPLAY_ENV
 -------------------------------------------------------------
 STREAM version $Revision: 5.10 $
 -------------------------------------------------------------
@@ -1466,8 +1556,8 @@ Number of Threads requested = 45
 Number of Threads counted = 45
 -------------------------------------------------------------
 Your clock granularity/precision appears to be 1 microseconds.
-Each test below will take on the order of 3608 microseconds.
-   (= 3608 clock ticks)
+Each test below will take on the order of 1549 microseconds.
+   (= 1549 clock ticks)
 Increase the size of the arrays if this shows that
 you are not getting at least 20 clock ticks per test.
 -------------------------------------------------------------
@@ -1476,13 +1566,15 @@ For best results, please be sure you know the
 precision of your system timer.
 -------------------------------------------------------------
 Function    Best Rate MB/s  Avg time     Min time     Max time
-Copy:           60858.7     0.003338     0.002629     0.005443
-Scale:          46798.4     0.003891     0.003419     0.004896
-Add:            54495.1     0.005007     0.004404     0.005926
-Triad:          57567.9     0.004899     0.004169     0.006077
+Copy:          100372.2     0.001629     0.001594     0.001751
+Scale:          68815.5     0.002346     0.002325     0.002369
+Add:            87086.5     0.002808     0.002756     0.002916
+Triad:          91495.5     0.002667     0.002623     0.002901
 -------------------------------------------------------------
 Solution Validates: avg error less than 1.000000e-13 on all three arrays
 -------------------------------------------------------------
+
+libgomp: Invalid value for environment variable OMP_DISPLAY_ENV
 -------------------------------------------------------------
 STREAM version $Revision: 5.10 $
 -------------------------------------------------------------
@@ -1499,8 +1591,8 @@ Number of Threads requested = 46
 Number of Threads counted = 46
 -------------------------------------------------------------
 Your clock granularity/precision appears to be 1 microseconds.
-Each test below will take on the order of 14137 microseconds.
-   (= 14137 clock ticks)
+Each test below will take on the order of 1486 microseconds.
+   (= 1486 clock ticks)
 Increase the size of the arrays if this shows that
 you are not getting at least 20 clock ticks per test.
 -------------------------------------------------------------
@@ -1509,13 +1601,15 @@ For best results, please be sure you know the
 precision of your system timer.
 -------------------------------------------------------------
 Function    Best Rate MB/s  Avg time     Min time     Max time
-Copy:           47183.3     0.003931     0.003391     0.004962
-Scale:          38535.1     0.005496     0.004152     0.006618
-Add:            42553.0     0.007311     0.005640     0.010179
-Triad:          45411.3     0.006267     0.005285     0.007379
+Copy:          103483.2     0.001568     0.001546     0.001610
+Scale:          70924.6     0.002277     0.002256     0.002305
+Add:            88988.1     0.002726     0.002697     0.002753
+Triad:          94042.7     0.002589     0.002552     0.002621
 -------------------------------------------------------------
 Solution Validates: avg error less than 1.000000e-13 on all three arrays
 -------------------------------------------------------------
+
+libgomp: Invalid value for environment variable OMP_DISPLAY_ENV
 -------------------------------------------------------------
 STREAM version $Revision: 5.10 $
 -------------------------------------------------------------
@@ -1532,8 +1626,8 @@ Number of Threads requested = 47
 Number of Threads counted = 47
 -------------------------------------------------------------
 Your clock granularity/precision appears to be 1 microseconds.
-Each test below will take on the order of 5264 microseconds.
-   (= 5264 clock ticks)
+Each test below will take on the order of 1414 microseconds.
+   (= 1414 clock ticks)
 Increase the size of the arrays if this shows that
 you are not getting at least 20 clock ticks per test.
 -------------------------------------------------------------
@@ -1542,13 +1636,15 @@ For best results, please be sure you know the
 precision of your system timer.
 -------------------------------------------------------------
 Function    Best Rate MB/s  Avg time     Min time     Max time
-Copy:           49243.4     0.004190     0.003249     0.006496
-Scale:          36747.8     0.005080     0.004354     0.006346
-Add:            43820.0     0.006915     0.005477     0.010578
-Triad:          45575.8     0.006090     0.005266     0.007283
+Copy:          106946.4     0.001530     0.001496     0.001569
+Scale:          72699.5     0.002215     0.002201     0.002235
+Add:            90843.2     0.002668     0.002642     0.002697
+Triad:          96273.2     0.002526     0.002493     0.002555
 -------------------------------------------------------------
 Solution Validates: avg error less than 1.000000e-13 on all three arrays
 -------------------------------------------------------------
+
+libgomp: Invalid value for environment variable OMP_DISPLAY_ENV
 -------------------------------------------------------------
 STREAM version $Revision: 5.10 $
 -------------------------------------------------------------
@@ -1565,8 +1661,8 @@ Number of Threads requested = 48
 Number of Threads counted = 48
 -------------------------------------------------------------
 Your clock granularity/precision appears to be 1 microseconds.
-Each test below will take on the order of 2308 microseconds.
-   (= 2308 clock ticks)
+Each test below will take on the order of 1379 microseconds.
+   (= 1379 clock ticks)
 Increase the size of the arrays if this shows that
 you are not getting at least 20 clock ticks per test.
 -------------------------------------------------------------
@@ -1575,10 +1671,10 @@ For best results, please be sure you know the
 precision of your system timer.
 -------------------------------------------------------------
 Function    Best Rate MB/s  Avg time     Min time     Max time
-Copy:           63292.3     0.008387     0.002528     0.047998
-Scale:          46458.2     0.009348     0.003444     0.048000
-Add:            56299.4     0.010565     0.004263     0.048004
-Triad:          52472.5     0.010081     0.004574     0.035655
+Copy:          110960.4     0.001458     0.001442     0.001499
+Scale:          73941.0     0.002185     0.002164     0.002217
+Add:            92948.6     0.002601     0.002582     0.002626
+Triad:          98045.5     0.002470     0.002448     0.002501
 -------------------------------------------------------------
 Solution Validates: avg error less than 1.000000e-13 on all three arrays
 -------------------------------------------------------------
