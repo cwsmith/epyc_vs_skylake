@@ -30,17 +30,19 @@ set -x
 
 export OMP_DISPLAY_ENV=1
 export OMP_PLACES=cores
-export OMP_PROC_BIND=close
 
 for build in opt O3; do
-  bin=./stream_${compiler}_omp_${build}
-  log=${build}_${compiler}_place${OMP_PLACES}_bind${OMP_PROC_BIND}.log
-  cat /dev/null > $log
-  for i in {1..96}; do
-    export OMP_NUM_THREADS=$i
-    $bin &>> $log
+  for procBind in close spread; do
+    export OMP_PROC_BIND=${procBind}
+    bin=./stream_${compiler}_omp_${build}
+    log=${build}_${compiler}_place${OMP_PLACES}_bind${OMP_PROC_BIND}.log
+    cat /dev/null > $log
+    for i in {1..96}; do
+      export OMP_NUM_THREADS=$i
+      $bin &>> $log
+    done
+    awk '/^Triad/ {print $2}' $log > $log.triad
   done
-  awk '/^Triad/ {print $2}' $log > $log.triad
 done
 
 set +x
