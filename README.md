@@ -87,7 +87,7 @@ procs="3 6 12 24 48"
 base_nxyz="1 1 3" ../../go.sh -c lyra -m aocc -r bp1_v1.sh -n "$procs" -p "$procs" &> lyra_bp1_aocc12.txt
 ```
 
-## Post Processing
+### Post Processing
 
 Generate plots for each system-compiler pair:
 
@@ -106,3 +106,47 @@ cd epyc_vs_skylake/mfem/bp1/<system-compiler-A_vs_system-compiler-B>/
 ln -s ceed-benchmarks/tests/mfem_bps/*.py .
 python postprocess-plot-4.py ../<system-compiler-A>/*.txt ../<system-compiler-B>/*.txt
 ```
+
+
+## STREAM Triad
+
+### Stampede2
+
+Peak STREAM Triad performance on the two socket Skylake nodes on Stampede2 is
+194 GB/s:
+
+https://repositories.lib.utexas.edu/bitstream/handle/2152/61472/SKX_Benchmarking.pdf?sequence=2&isAllowed=y
+
+.  Colfax Research also has an article here the discusses other Xeon SKUs:
+
+https://colfaxresearch.com/xeon-2017/#sec-3
+
+### IPA
+
+Peak OpenMP STREAM Triad performance on the two socket EPYC nodes on IPA is 200 GB/s
+using GCC 7.1.0.  AOCC 1.2 test results peak at 153 GB/s and oscillate a lot
+versus thread count.
+
+#### execution
+
+Allocate an EPYC node and run the `runStream` script.
+
+```
+./runStream.sh <download=0|1> <compiler=gcc|aocc>
+```
+
+
+### Post Processing
+
+This produces \*.log and \*.log.triad files with the STREAM output and the triad
+peak bandwidth results, respectively.  The contents of the \*.log.triad files
+can be plotted (generates `<outfig name>.png`) with the `plot.py` script:
+
+```
+../plot.py  <outfig name> <input log> [...<input log>]
+```
+
+
+
+
+
