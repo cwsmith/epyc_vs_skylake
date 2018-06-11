@@ -127,6 +127,12 @@ Peak OpenMP STREAM Triad performance on the two socket EPYC nodes on IPA is 200 
 using GCC 7.1.0.  AOCC 1.2 test results peak at 153 GB/s and oscillate a lot
 versus thread count.
 
+The following AnAndTech and Tirias Research articles discuss the EPYC NUMA domains.  AnAndTech testing produces a slightly higher peak bandwidth of 207 GB/s using the Intel compilers.
+
+https://www.anandtech.com/show/11544/intel-skylake-ep-vs-amd-epyc-7000-cpu-battle-of-the-decade/12
+
+https://www.amd.com/system/files/2018-03/AMD-Optimizes-EPYC-Memory-With-NUMA.pdf
+
 #### execution
 
 Allocate an EPYC node and run the `runStream` script.
