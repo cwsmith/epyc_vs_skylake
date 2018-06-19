@@ -18,8 +18,9 @@
 
 function setup_intel()
 {
-   module load intel/16.0.3
-   module load mvapich2/2.2
+   module purge
+   module load intel/18.0.1
+   module load impi/2018.0
    MPICC=mpicc
    MPICXX=mpicxx
    MPIF77=mpif77
@@ -27,8 +28,6 @@ function setup_intel()
 
    CFLAGS="-O3"
    FFLAGS="-O3"
-   TEST_EXTRA_CFLAGS="-xHost"
-   NATIVE_CFLAG="-xHost"
 
    NEK5K_EXTRA_PPLIST=""
 }
