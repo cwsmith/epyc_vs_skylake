@@ -35,8 +35,9 @@ function setup_intel()
 
 function setup_gcc()
 {
-   module load gcc/7.1.0
-   module load mvapich2/2.2
+   module purge
+   module load gcc/6.1.0
+   module load mvapich2/2.3
    MPICC=mpicc
    MPICXX=mpicxx
    MPIF77=mpif77
@@ -52,8 +53,9 @@ function setup_gcc()
 
 function setup_gccOpt()
 {
-   module load gcc/7.1.0
-   module load mvapich2/2.2
+   module purge
+   module load gcc/6.1.0
+   module load mvapich2/2.3
    MPICC=mpicc
    MPICXX=mpicxx
    MPIF77=mpif77
@@ -64,6 +66,7 @@ function setup_gccOpt()
 
 function setup_aocc()
 {
+   module purge
    module load gcc/7.1.0
    module load mvapich2/2.2
    source /g/g19/smith516/software/setenv_AOCC.sh
@@ -80,6 +83,7 @@ function setup_aocc()
 
 function setup_aoccOpt()
 {
+   module purge
    module load gcc/7.1.0
    module load mvapich2/2.2
    source /g/g19/smith516/software/setenv_AOCC.sh
