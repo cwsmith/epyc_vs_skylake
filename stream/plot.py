@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
 
 import sys
 import matplotlib.pyplot as plt
@@ -21,7 +21,7 @@ for inlog in sys.argv[2:]:
   plt.plot(opt)
   labels.append(inlog)
 
-plt.legend(labels)
+plt.legend(labels, loc='lower right')
 plt.xlabel('threads')
 plt.ylabel('MB/s')
 plt.title('STREAM Triad Bandwidth')
