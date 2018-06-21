@@ -21,6 +21,9 @@ for inlog in sys.argv[2:]:
   plt.plot(opt)
   labels.append(inlog)
 
+axes = plt.gca()
+axes.set_ylim([0,250000])
+
 plt.legend(labels, loc='lower right')
 plt.xlabel('threads')
 plt.ylabel('MB/s')
