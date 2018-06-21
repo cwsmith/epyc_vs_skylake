@@ -43,7 +43,8 @@ cd ceed-benchmarks/tests/mfem_bps/
 
 ### IPA
 
-`bp1` was executed on a dual socket AMD EPYC 7451 node using GCC 7.1.0 and AOCC 1.2 with MVAPICH2.
+`bp1` was executed on a dual socket AMD EPYC 7451 node using GCC 7.1.0 and AOCC 1.2 
+with MVAPICH2, and the 2018 Intel compiler and MPI implementation.
 Each 7451 has 24 cores and supports two hardware threads per core (96 threads in
 total).  The node has 256GB (16GB x16) of RAM running at 2.67Ghz.
 
@@ -112,8 +113,9 @@ python postprocess-plot-4.py ../<system-compiler-A>/*.txt ../<system-compiler-B>
 
 ### Stampede2
 
-Peak OpenMP STREAM Triad performance on the two socket Skylake nodes on Stampede2 is
-194 GB/s:
+Peak OpenMP STREAM Triad performance using the Intel18 compiler on the two socket Skylake nodes on Stampede2 is 211 GB/s.
+
+The following TACC benchmarking report lists a 194 GB/s using the Intel17 compiler:
 
 https://repositories.lib.utexas.edu/bitstream/handle/2152/61472/SKX_Benchmarking.pdf?sequence=2&isAllowed=y
 
